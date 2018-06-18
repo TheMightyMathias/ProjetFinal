@@ -1,9 +1,10 @@
-#contact{
-    align-content: center;
+.row.menu{
+    background-color: yellowgreen; 
+    border: 0%;   
 }
 
-.row.menu{
-    background-color: yellowgreen;    
+body{
+    background-color: teal;
 }
 
 main.a{
