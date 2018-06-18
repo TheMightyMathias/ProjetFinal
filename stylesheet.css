@@ -3,5 +3,9 @@
 }
 
 .row.menu{
-    background-color: darkcyan;
+    background-color: darkcyan;    
+}
+
+.col-sm{
+    color: black;
 }
