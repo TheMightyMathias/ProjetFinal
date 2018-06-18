@@ -2,6 +2,6 @@
     align-content: center;
 }
 
-.container.menu{
+.row.menu{
     background-color: darkcyan;
 }
