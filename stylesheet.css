@@ -1,8 +1,7 @@
-.teampicture {
-    border-radius: 50%;
-}
-
 #contact{
     align-content: center;
 }
 
+.container.menu{
+    background-color: darkcyan;
+}
