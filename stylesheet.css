@@ -1,13 +1,8 @@
-.container {
-    background-color: lightblue;
+.teampicture {
+    border-radius: 50%;
 }
 
 #contact{
     align-content: center;
 }
 
-.teampicture {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
