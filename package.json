@@ -1,0 +1,28 @@
+{
+  "name": "projetfinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMightyMathias/ProjetFinal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheMightyMathias/ProjetFinal/issues"
+  },
+  "homepage": "https://github.com/TheMightyMathias/ProjetFinal#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

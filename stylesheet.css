@@ -6,7 +6,9 @@
 body{
     background-color: teal;
 }
-
+#logo{
+    width: 100px;
+}
 main.a{
     display: grid;
     grid-template-columns: 250px 250px;
@@ -42,4 +44,8 @@ main.a{
 
   h2{
       text-align: center;
+  }
+
+  .offre.market{
+      display: grid;
   }
