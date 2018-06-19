@@ -1,6 +1,9 @@
-.row.menu{
-    background-color: yellowgreen; 
-    border: 0%;   
+.contactform{
+    max-width: 400px;
+    background-color: yellowgreen;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10%; 
 }
 
 body{
@@ -24,13 +27,13 @@ main.a{
     grid-auto-flow: column; 
   }
 
-  .team {
+.team {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
     width: auto;
     text: center;
   }
 
-  .description {
+.description {
     font-family: Work Sans;
     font-size: 14px;
     font-weight: 300;
