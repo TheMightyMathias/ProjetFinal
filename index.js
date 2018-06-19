@@ -17,6 +17,9 @@ app.get('/team', function(req,res){
 app.get('/contact', function(req,res){
     res.sendFile('contact.html',{root:__dirname});
 });
+app.get('/news', function(req,res){
+    res.sendFile('news.html',{root:__dirname});
+});
 app.get('/stylesheet.css', function(req, res) {
     res.sendFile(__dirname + "/" + "stylesheet.css");
   });
