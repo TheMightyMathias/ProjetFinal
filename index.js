@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
     //MongoClient.connect(url, function(err, db) {
         //if (err) throw err;
       
-   // var dbo = db.db("pokemon");
+   //var dbo = db.db("pokemon");
     //dbo.collection("pokedex").findOne({}, function(err, result) {
         //if (err) throw err;
         //console.log(result.name);
@@ -22,6 +22,7 @@ app.get('/', function(req, res) {
       //});
     //});
 //});
+
 app.get('/recrutement', function(req,res){
     res.sendFile('recrutement.html',{root:__dirname});
 });
@@ -42,4 +43,4 @@ app.get('/stylesheet.css', function(req, res) {
   });
 
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(3123, () => console.log('Example app listening on port 3123!'))
