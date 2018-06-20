@@ -1,11 +1,18 @@
 #joboffer{
-    margin: 40px;
+    margin: 25px;
+    border-color: lightgrey;
+    border-style: solid;
+    padding: 20px;
+    max-width: 1000px;
+
+
 }
 
 
 .teamcard{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
 .contactform{
     max-width: 400px;
