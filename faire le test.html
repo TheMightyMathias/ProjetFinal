@@ -148,6 +148,7 @@
   <br>
   <br> 
   
+  <!--
   <div id="message1" class="jumbotron flyover flyover-centered">
     <h1>Congrats!</h1>
     <p>
@@ -156,8 +157,29 @@
 
     <button class="btn btn-primary" onclick="$('#message1').toggleClass('in');">Dismiss</button>
  </div>
+-->
+<div id="message1" class="jumbotron flyover flyover-centered">
+</div>
+<script>
+  (function() {
+    var quotes = [
+      {
+        text: "I'ts a Pikachu",
+        img:  "http://i.stack.imgur.com/FqBE6.jpg?s=32&g=1"
+      },
+      {
+        text: "It's a Bulbazaur",
+        img:  "https://www.gravatar.com/avatar/ca3e484c121268e4c8302616b2395eb9?s=32&d=identicon&r=PG",
+      }
+    ];
+    var message1 = quotes[Math.floor(Math.random() * quotes.length)];
+    document.getElementById("quote").innerHTML =
+      '<h1>'+ Congrats + '</h1>' +
+      '<p>' + message1.text + '</p>' +
+      '<img src="' + message1.img + '">';
+  })();
+</script>
 
-  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
