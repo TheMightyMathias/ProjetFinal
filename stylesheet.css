@@ -61,3 +61,15 @@ main.a{
   .offre.market{
       display: grid;
   }
+  .container-fluid contactform{
+      background-image: "http://image.jeuxvideo.com/medias-md/146313/1463134025-2001-card.png";
+}
+
+button{
+    font-size: 16px;
+    color: black;
+}
+
+a{
+    color: black;
+}
