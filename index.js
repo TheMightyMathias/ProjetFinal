@@ -31,7 +31,6 @@ var ContactForm = mongoose.model('contact_form', new Schema({
     message: String 
 }));
 
-
 // Works
 // Pokedex.find({}, function(error, result) { 
 //     if (result) {
@@ -115,4 +114,6 @@ app.post('/create_contact', function(req, res){
 
 app.listen(3123, () => console.log('Example app listening on port 3123!'))
 
+
 //console.log(query)
+
