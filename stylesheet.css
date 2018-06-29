@@ -1,3 +1,59 @@
+.img-wrapper {
+    position: absolute;
+   }
+  
+  .img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .img-overlay:before {
+    content: ' ';
+    display: block;
+    height: 50%;
+  }
+
+  #play_button {
+    position:absolute;
+    transition: .5s ease;
+    top: 60%;
+    left: 60%;
+    background-color: cyan;
+}
+.carousel-inner {
+    height: 80vh;
+}
+.homecard{
+    position: absolute;
+    top:20%;
+    right: 5%;
+    width: 30%;
+}
+
+.card{
+    font-size: 0.7em;
+}
+
+.card-body a{
+    font-size: 0.8em;
+}
+
+
+#homefont{
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+#recrutementfont {
+    font-family: 'Shrikhand', cursive;
+    padding: 30px;
+}
+
+
 #joboffer{
     margin: 25px;
     border-color: lightgrey;
@@ -46,7 +102,6 @@ main.a{
 .team {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
     width: auto;
-    text: center;
   }
 
 .description {
